@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>IT Portfolio</title>
+</head>
+<body>
+    <header id="header">
+        <h1><a href="#home">My portfolio</a></h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#aboutme">About me</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <div class="home-content">
+                <div class="home-text">
+                    <h2>Hello, my name is</h2>
+                    <h1>Elena Tovcaci</h1>
+                    <p>I am a Junior Front-End Developer</p>
+                    <a href="https://docs.google.com/document/d/1pcL5pTEExiWS0hDqHk6e31yIau5SSxTXzqkozW3XOaM/edit?usp=sharing" class="download-cv" download>
+                        <button class="download-cv-button">Download CV</button>
+                    </a>
+                </div>
+                <div class="home-icons">
+                    <i class="fab fa-html5"></i> 
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js-square"></i> 
+                </div>
+            </div>
+        </section>
+        <section id="aboutme">
+            <div class="aboutme-content">
+                <div class="aboutme-photo">
+                    <img src="image/Elena.jpg" alt="My Photo">
+                </div>
+                <div class="aboutme-text">
+                    <h2>About Me</h2>
+                    <p>Hello! My name is Elena Tovcaci, and I am a budding Front-End Developer. I am passionate about creating beautiful and functional web experiences. Currently, I am focusing on enhancing my skills in HTML, CSS, and JavaScript. I believe that a solid understanding of these technologies is essential for building responsive and user-friendly websites.</p>
+                    <p>I am dedicated to continuous learning and improvement, exploring the latest trends and best practices in web development. My goal is to create intuitive interfaces and deliver exceptional user experiences. I am excited about the opportunities ahead as I develop my expertise in front-end technologies.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="skills">
+            <div class="skills-container">
+                <div class="hard-skills">
+                    <h3><i class="fas fa-cogs"></i> Hard skills:</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="soft-skills">
+                    <h3><i class="fas fa-handshake"></i> Soft skills:</h3>
+                    <ul>
+                        <li>Attention to Detail</li>
+                        <li>Continuous Learning</li>
+                        <li>Critical Thinking</li>
+                        <li>Time Management</li>
+                        <li>Patience</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <h3>Here are some of my projects:</h3>
+            <div class="projects-wrapper">
+                <div class="projects-container">
+                    <div class="project-item">
+                        <a href="https://hellensis13.github.io/todo.io/" target="_blank">
+                            <img src="image/todo.png" alt="to-do-project" />
+                        </a>
+                        <p>To Do Project</p>
+                    </div>
+                    <div class="project-item">
+                        <a href="https://hellensis13.github.io/teacozy.github.io/" target="_blank">
+                            <img src="image/flex.png" alt="flex-box-project" />
+                        </a>
+                        <p>Flex Box Project</p>
+                    </div>
+                    <div class="project-item">
+                        <a href="https://hellensis13.github.io/counter.io/" target="_blank">
+                            <img src="image/counter.png" alt="counter-project" />
+                        </a>
+                        <p>Counter Project</p>
+                    </div>
+                    <div class="project-item">
+                        <a href="https://hellensis13.github.io/actors.io/" target="_blank">
+                            <img src="image/actors.png" alt="actors-project" />
+                        </a>
+                        <p>Actors Project</p>
+                    </div>
+                    <div class="project-item">
+                        <a href="https://hellensis13.github.io/guess.io/" target="_blank">
+                            <img src="image/guess.png" alt="guess-project" />
+                        </a>
+                        <p>Guess Project</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+         
+        <section id="contact">
+            <h2>Contact me</h2>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p>
+                        <i class="fa fa-user-circle" aria-hidden="true" style="width: 25px;"></i> Elena Tovcaci, 060499894
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-house" aria-hidden="true" style="width: 25px;"></i> Chișinău, Moldova
+                    </p>
+                    <p>
+                        <i class="fa fa-envelope" aria-hidden="true" style="width: 25px;"></i> el.tovkach@gmail.com
+                    </p>
+                </div>
+                
+                <div class="contact-form">
+                    <form>
+                        <input name="name" placeholder="Name" required>
+                        <input name="phone" placeholder="Phone number" required>
+                        <input name="email" placeholder="Email" required>
+                        <label for="motivation">Reason</label>
+                        <select name="motivation" required>
+                            <option value="">--select an option--</option>
+                            <option value="interviu">Interview</option>
+                            <option value="angajare">Employment</option>
+                        </select>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+        
+    </main>
+    <footer>
+        <hr />
+        <p>&copy; 2024 Elena Tovcaci. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://github.com/Hellensis13" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+        </div>
+        
+    </footer>
+    
+</body>
+</html>
